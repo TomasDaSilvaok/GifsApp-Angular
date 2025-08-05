@@ -2,6 +2,8 @@
   <img
     [src]="url"
     [alt]="alt"
+    [height]="height"
+    [width]="width"
     class="card-img-top animate__animated animate__fadeIn"
     (load)="onLoad()"
     [ngStyle]="{ display: hasLoaded ? '' : 'none' }"
